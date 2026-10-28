@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel by Interest | Family, Honeymoon, Adventure & Pilgrimage Tours - Shukra Tours</title>
+  
+  <meta name="description" content="Discover holiday trips tailored to your travel style: family vacations, romantic honeymoon escapes, wildlife safaris, and spiritual temple circuits with Shukra Tours & Travels Coimbatore.">
+  <meta name="keywords" content="Family tours Coimbatore, Honeymoon packages Ooty Munnar, Adventure safari Topslip, Pilgrimage tours Rameshwaram Navagraha, Group tour Tempo Traveller">
+  <link rel="canonical" href="https://coimbatoretaxishukra.com/travel-by-interest.html">
+  <link rel="icon" type="image/jpeg" href="assets/images/shukra-logo.jpg">
+  <link rel="apple-touch-icon" href="assets/images/shukra-logo.jpg">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#0b1f3a',
+              navyDark: '#071527',
+              navyLight: '#16335a',
+              gold: '#f59e0b',
+              goldDark: '#d97706',
+              goldLight: '#fbbf24',
+              teal: '#0d9488',
+              surface: '#f8fafc'
+            }
+          },
+          fontFamily: {
+            heading: ['Outfit', 'sans-serif'],
+            body: ['Plus Jakarta Sans', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-500 selection:text-white">
+
+  <!-- TOP BAR -->
+  <aside class="bg-brand-navyDark text-slate-300 text-xs py-2 px-4 border-b border-slate-800 hidden md:block">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-6">
+        <span class="flex items-center text-amber-400 font-medium">
+          <i class="fa-solid fa-star mr-1.5 text-xs"></i> 4.9/5 Rating (1,200+ Reviews)
+        </span>
+        <span class="text-slate-400">|</span>
+        <span class="flex items-center hover:text-white transition">
+          <i class="fa-solid fa-location-dot text-amber-400 mr-1.5"></i> Subramaniyampalayam, GN Mills, Coimbatore
+        </span>
+      </div>
+      <div class="flex items-center space-x-6">
+        <a href="tel:+919487641616" class="hover:text-amber-400 font-bold transition">
+          <i class="fa-solid fa-phone text-amber-400 mr-1.5"></i> +91 94876 41616 / 94878 41616
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN HEADER / NAVBAR -->
+  <header id="main-nav" class="sticky top-0 z-40 bg-brand-navy/95 backdrop-blur-md text-white transition-all duration-300 border-b border-slate-800 shadow-md py-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between">
+        
+        <!-- Brand Logo -->
+        <a href="index.html" class="flex items-center group">
+          <div class="bg-white py-1 px-3 rounded-xl shadow-md border border-white/20 group-hover:scale-[1.02] transition-all duration-200">
+            <img src="assets/images/shukra-logo.jpg" alt="Coimbatore Taxi Shukra Tours & Travels" class="h-9 sm:h-11 w-auto object-contain">
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center space-x-1 xl:space-x-2">
+          <a href="index.html" class="px-3 py-2 rounded-lg text-sm font-semibold text-slate-200 hover:text-white hover:bg-white/10 transition">Home</a>
+          <a href="packages.html" class="px-3 py-2 rounded-lg text-sm font-semibold text-slate-200 hover:text-white hover:bg-white/10 transition">Tour Packages</a>
+          <a href="travel-by-interest.html" class="px-3 py-2 rounded-lg text-sm font-semibold text-amber-400 hover:bg-white/10 transition">Travel by Interest</a>
+          <a href="why-choose-us.html" class="px-3 py-2 rounded-lg text-sm font-semibold text-slate-200 hover:text-white hover:bg-white/10 transition">Why Choose Us</a>
+          <a href="contact.html" class="px-3 py-2 rounded-lg text-sm font-semibold text-slate-200 hover:text-white hover:bg-white/10 transition">Contact Us</a>
+        </nav>
+
+        <!-- Right Action Buttons -->
+        <div class="hidden sm:flex items-center space-x-3">
+          <a href="tel:+919487641616" class="flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-100 text-xs font-bold border border-slate-700 transition">
+            <i class="fa-solid fa-phone text-emerald-400"></i>
+            <span>+91 94876 41616</span>
+          </a>
+          <button class="open-plan-trip-modal px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-heading font-extrabold text-xs shadow-lg shadow-amber-500/25 transition">
+            <i class="fa-solid fa-paper-plane mr-1.5"></i> PLAN TRIP
+          </button>
+        </div>
+
+        <!-- Mobile Toggle -->
+        <div class="lg:hidden flex items-center space-x-2">
+          <button id="mobile-menu-btn" class="p-2.5 rounded-xl bg-slate-800 text-slate-200 hover:text-white" aria-label="Toggle menu">
+            <i class="fa-solid fa-bars text-lg"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE SLIDE-OVER DRAWER -->
+  <div id="mobile-backdrop" class="fixed inset-0 bg-slate-950/70 z-50 hidden opacity-0 transition-opacity duration-300"></div>
+  <aside id="mobile-drawer" class="fixed inset-y-0 right-0 w-80 max-w-full bg-brand-navyDark text-white z-50 p-6 flex flex-col justify-between transform translate-x-full transition-transform duration-300 shadow-2xl overflow-y-auto">
+    <div>
+      <div class="flex items-center justify-between pb-6 border-b border-slate-800">
+        <a href="index.html" class="bg-white py-1 px-2.5 rounded-xl shadow-sm inline-block">
+          <img src="assets/images/shukra-logo.jpg" alt="Shukra Tours & Travels" class="h-8 w-auto object-contain">
+        </a>
+        <button id="close-mobile-menu" class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 hover:text-white flex items-center justify-center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <nav class="space-y-2 mt-6 text-sm font-medium">
+        <a href="index.html" class="block py-2.5 px-3 rounded-xl text-slate-200 hover:bg-white/5">Home</a>
+        <a href="packages.html" class="block py-2.5 px-3 rounded-xl text-slate-200 hover:bg-white/5">Tour Packages</a>
+        <a href="travel-by-interest.html" class="block py-2.5 px-3 rounded-xl text-amber-400 bg-white/5 font-semibold">Travel by Interest</a>
+        <a href="why-choose-us.html" class="block py-2.5 px-3 rounded-xl text-slate-200 hover:bg-white/5">Why Choose Us</a>
+        <a href="contact.html" class="block py-2.5 px-3 rounded-xl text-slate-200 hover:bg-white/5">Contact Us</a>
+      </nav>
+      <div class="mt-8">
+        <button class="open-plan-trip-modal w-full py-3 rounded-xl bg-amber-500 text-slate-950 font-bold text-sm">
+          Plan Your Trip
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- PAGE HERO BANNER -->
+  <section class="bg-brand-navy py-16 text-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      <div class="inline-flex items-center space-x-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">
+        <i class="fa-solid fa-compass"></i>
+        <span>Travel Tailored to Your Passion</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-heading font-extrabold text-white tracking-tight">
+        Travel by Interest
+      </h1>
+      <p class="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto mt-3">
+        Every traveler is unique. Find the perfect holiday customized around family comfort, romantic privacy, mountain adventure, or sacred spiritual blessings.
+      </p>
+    </div>
+  </section>
+
+  <!-- TRAVEL BY INTEREST DETAILS -->
+  <main class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+    
+    <!-- 1. Family Holidays -->
+    <section id="family" class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+      <div class="lg:col-span-6 rounded-3xl overflow-hidden shadow-xl h-80 sm:h-96">
+        <img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=1000&auto=format&fit=crop" alt="Family holiday tour packages" class="w-full h-full object-cover">
+      </div>
+      <div class="lg:col-span-6 space-y-4">
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold">
+          <i class="fa-solid fa-users"></i>
+          <span>Joyful Bonding & Leisure</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-brand-navy">Family Holidays & Vacations</h2>
+        <p class="text-sm text-slate-600 leading-relaxed">
+          Planning a trip with grandparents and little ones requires special care: leisurely driving, timely restroom and snack stops, comfortable AC cabs, and kid-friendly destinations. Shukra Tours crafts family-centric itineraries that make everyone happy.
+        </p>
+        <div class="grid grid-cols-2 gap-3 pt-2 text-xs text-slate-700">
+          <div class="p-3 bg-white rounded-xl border border-slate-200">
+            <strong>Top Destinations:</strong> Ooty, Kodaikanal, Mysore, Black Thunder Water Park
+          </div>
+          <div class="p-3 bg-white rounded-xl border border-slate-200">
+            <strong>Recommended Fleet:</strong> Toyota Innova Crysta / Ertiga / Tempo
+          </div>
+        </div>
+        <div class="pt-2">
+          <button class="open-plan-trip-modal px-6 py-3 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-heading font-extrabold text-xs shadow-md transition" data-interest="Family Holiday">
+            Plan a Family Trip Now &rarr;
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Honeymoon Trips -->
+    <section id="honeymoon" class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+      <div class="lg:col-span-6 lg:order-2 rounded-3xl overflow-hidden shadow-xl h-80 sm:h-96">
+        <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=1000&auto=format&fit=crop" alt="Honeymoon tours South India" class="w-full h-full object-cover">
+      </div>
+      <div class="lg:col-span-6 lg:order-1 space-y-4">
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-rose-100 text-rose-800 text-xs font-bold">
+          <i class="fa-solid fa-heart"></i>
+          <span>Romantic Beginnings</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-brand-navy">Honeymoon & Romantic Escapes</h2>
+        <p class="text-sm text-slate-600 leading-relaxed">
+          Celebrate your new journey together in the mist-clad hill slopes of Munnar, tea plantations of Coonoor, or serene pine forests of Kodaikanal. We provide private AC sedans with respectful chauffeurs who ensure your privacy while guiding you to romantic sunset points.
+        </p>
+        <div class="grid grid-cols-2 gap-3 pt-2 text-xs text-slate-700">
+          <div class="p-3 bg-white rounded-xl border border-slate-200">
+            <strong>Top Destinations:</strong> Munnar, Wayanad Treehouses, Coorg, Ooty
+          </div>
+          <div class="p-3 bg-white rounded-xl border border-slate-200">
+            <strong>Inclusions:</strong> Flower bed setup, candlelight dinner options
+          </div>
+        </div>
+        <div class="pt-2">
+          <button class="open-plan-trip-modal px-6 py-3 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-heading font-extrabold text-xs shadow-md transition" data-interest="Honeymoon Romance">
+            Plan Honeymoon Trip &rarr;
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Adventure & Wildlife -->
+    <section id="adventure" class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+      <div class="lg:col-span-6 rounded-3xl overflow-hidden shadow-xl h-80 sm:h-96">
+        <img src="https://images.unsplash.com/photo-1549366021-9f761d450615?q=80&w=1000&auto=format&fit=crop" alt="Adventure wildlife safari" class="w-full h-full object-cover">
+      </div>
+      <div class="lg:col-span-6 space-y-4">
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold">
+          <i class="fa-solid fa-person-hiking"></i>
+          <span>Adrenaline & Wilderness</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-brand-navy">Adventure & Wildlife Safaris</h2>
+        <p class="text-sm text-slate-600 leading-relaxed">
+          Conquer the 40 hairpin curves of Valparai, embark on open jeep safaris inside Parambikulam and Topslip Tiger Reserves, marvel at Athirappalli water cascades, or trek through untouched Western Ghats forest trails.
+        </p>
+        <div class="grid grid-cols-2 gap-3 pt-2 text-xs text-slate-700">
+          <div class="p-3 bg-white rounded-xl border border-slate-200">
+            <strong>Top Spots:</strong> Topslip, Parambikulam, Valparai, Wayanad
+          </div>
+          <div class="p-3 bg-white rounded-xl border border-slate-200">
+            <strong>Experiences:</strong> Jungle safari, elephant camp, rafting, trekking
+          </div>
+        </div>
+        <div class="pt-2">
+          <button class="open-plan-trip-modal px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-heading font-extrabold text-xs shadow-md transition" data-interest="Adventure & Wildlife">
+            Book Adventure Safari &rarr;
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Pilgrimage & Spiritual -->
+    <section id="pilgrimage" class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+      <div class="lg:col-span-6 lg:order-2 rounded-3xl overflow-hidden shadow-xl h-80 sm:h-96">
+        <img src="https://images.unsplash.com/photo-1609766857041-ed402ea8069a?q=80&w=1000&auto=format&fit=crop" alt="Pilgrimage tours South India" class="w-full h-full object-cover">
+      </div>
+      <div class="lg:col-span-6 lg:order-1 space-y-4">
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-100 text-amber-900 text-xs font-bold">
+          <i class="fa-solid fa-hands-praying"></i>
+          <span>Sacred Darshans</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-brand-navy">Spiritual & Pilgrimage Journeys</h2>
+        <p class="text-sm text-slate-600 leading-relaxed">
+          Embark on soul-stirring spiritual journeys across Tamil Nadu and Kerala. Our drivers are well-versed in temple timings, special darshan protocols, theertham baths, and dietary preferences for satvik food along the highways.
+        </p>
+        <div class="grid grid-cols-2 gap-3 pt-2 text-xs text-slate-700">
+          <div class="p-3 bg-white rounded-xl border border-slate-200">
+            <strong>Key Circuits:</strong> Navagraha 9 Temples, Rameshwaram, Madurai, Palani, Guruvayur
+          </div>
+          <div class="p-3 bg-white rounded-xl border border-slate-200">
+            <strong>Care:</strong> Wheelchair assistance, senior citizen priority
+          </div>
+        </div>
+        <div class="pt-2">
+          <button class="open-plan-trip-modal px-6 py-3 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-heading font-extrabold text-xs shadow-md transition" data-interest="Spiritual Pilgrimage">
+            Plan Pilgrimage Tour &rarr;
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Group & Corporate Outings -->
+    <section id="group" class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+      <div class="lg:col-span-6 rounded-3xl overflow-hidden shadow-xl h-80 sm:h-96">
+        <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?q=80&w=1000&auto=format&fit=crop" alt="Group and corporate outings" class="w-full h-full object-cover">
+      </div>
+      <div class="lg:col-span-6 space-y-4">
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-100 text-indigo-900 text-xs font-bold">
+          <i class="fa-solid fa-van-shuttle"></i>
+          <span>Team Retreats & Reunions</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-heading font-extrabold text-brand-navy">Group & Corporate Outings</h2>
+        <p class="text-sm text-slate-600 leading-relaxed">
+          Planning an annual corporate offsite, college reunion, or extended family vacation? We provide 14, 17, and 21 seater AC Tempo Travellers and luxury coaches equipped with pushback seating, LED entertainment, and ample luggage boot space.
+        </p>
+        <div class="grid grid-cols-2 gap-3 pt-2 text-xs text-slate-700">
+          <div class="p-3 bg-white rounded-xl border border-slate-200">
+            <strong>Top Retreats:</strong> Coorg resorts, Wayanad plantations, Valparai hills
+          </div>
+          <div class="p-3 bg-white rounded-xl border border-slate-200">
+            <strong>Fleet:</strong> 14/17/21 Seater Tempo Travellers & Luxury Buses
+          </div>
+        </div>
+        <div class="pt-2">
+          <button class="open-plan-trip-modal px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-heading font-extrabold text-xs shadow-md transition" data-interest="Group / Corporate Outing">
+            Get Corporate Quote &rarr;
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-brand-navyDark text-slate-400 text-xs py-10 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 text-center space-y-3">
+      <div class="bg-white py-1.5 px-3 rounded-xl shadow-sm inline-block mb-1">
+        <img src="assets/images/shukra-logo.jpg" alt="Shukra Tours & Travels" class="h-9 w-auto object-contain">
+      </div>
+      <p class="text-white font-bold">Shukra Tours & Travels • 10/30G, KNG Pudur Road, Subramaniyampalayam, GN Mills Post, Coimbatore – 641029</p>
+      <p>Helpline: +91 94876 41616 / +91 94878 41616 • Email: info@coimbatoretaxishukra.com</p>
+      <p class="text-[11px] text-slate-500">© 2026 Shukra Tours & Travels. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div id="plan-trip-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 hidden">
+    <div id="modal-backdrop" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm"></div>
+    <div class="relative bg-white rounded-3xl max-w-xl w-full p-6 sm:p-8 z-10 shadow-2xl">
+      <div class="flex justify-between items-center pb-4 border-b">
+        <h3 class="text-lg font-bold text-brand-navy">Plan Your Interest-Based Trip</h3>
+        <button id="close-plan-trip-modal" class="text-slate-400 hover:text-slate-800"><i class="fa-solid fa-xmark text-lg"></i></button>
+      </div>
+      <form class="plan-trip-form space-y-4 mt-4">
+        <div class="grid grid-cols-2 gap-3">
+          <input type="text" name="name" required placeholder="Your Name" class="px-3 py-2 bg-slate-50 border rounded-xl text-xs">
+          <input type="tel" name="phone" required placeholder="Phone / WhatsApp" class="px-3 py-2 bg-slate-50 border rounded-xl text-xs">
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <select name="destination" class="px-3 py-2 bg-slate-50 border rounded-xl text-xs">
+            <option value="Ooty Tour">Ooty Hill Station</option>
+            <option value="Munnar Kerala">Munnar & Thekkady</option>
+            <option value="Kodaikanal">Kodaikanal</option>
+            <option value="Valparai Safari">Valparai & Topslip Safari</option>
+            <option value="Rameshwaram Pilgrimage">Rameshwaram Pilgrimage</option>
+            <option value="Custom Tour">Other / Custom</option>
+          </select>
+          <input type="date" name="travelDate" required class="px-3 py-2 bg-slate-50 border rounded-xl text-xs">
+        </div>
+        <select name="travelStyle" class="w-full px-3 py-2 bg-slate-50 border rounded-xl text-xs">
+          <option value="Family Holiday">Family Holiday</option>
+          <option value="Honeymoon Romance">Honeymoon Romance</option>
+          <option value="Adventure & Nature">Adventure & Wildlife</option>
+          <option value="Spiritual & Pilgrimage">Spiritual & Pilgrimage</option>
+          <option value="Group / Corporate Outing">Group / Corporate Outing</option>
+        </select>
+        <button type="submit" class="w-full py-3 bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold rounded-xl text-xs">
+          Submit to Travel Expert on WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
